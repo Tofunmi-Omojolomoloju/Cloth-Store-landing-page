@@ -71,7 +71,58 @@ background-color: aqua;
 
 .end {
    display: flex; 
-   gap: 40px;
+   gap: 60px;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 11px;
+    font-size: 12px;
+}
+
+.cartcont {
+    display: flex;
+}
+.cart {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.cart1 {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+}
+
+.fa-cart-shopping {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid black;
+    padding: 6px;
+    
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: px;
 }
 
 .box-1 {
@@ -90,6 +141,11 @@ background-color: aqua;
     font-weight: 300;
 }
 
+.inputcont {
+    position: relative;
+    
+}
+
 input {
     border: none;
     background-color: #c4c3c390;
@@ -98,6 +154,14 @@ input {
     margin-top: 15px;
     text-align: end;
     padding-right: 5px;
+}
+
+.fa {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    pointer-events: none;
+    
 }
 
 .boxx {
@@ -132,6 +196,8 @@ p {
 }
 
 .shop1 {
+    display: flex;
+    justify-content: space-between;
     width: 280px;
     height: 50px;
     background-color: #c4c3c390;
@@ -139,6 +205,10 @@ p {
     padding-top: 15px;
     font-family: 'BetreaceDeckTrial', sans-serif ;;
     font-weight: 500;
+}
+
+.fa-arrow-right {
+    margin-right: 20px;
 }
 
 .shop2 {
