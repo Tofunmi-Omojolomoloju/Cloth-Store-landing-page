@@ -179,7 +179,7 @@ background-color: aqua;
 .boxx {
     display: flex;
     gap: 20px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .box-2 {
