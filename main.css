@@ -80,42 +80,53 @@ background-color: aqua;
     border-radius: 50%;
     background-color: black;
     color: white;
-    padding: 11px;
-    font-size: 12px;
+    /* padding: 15px; */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cartcont {
     display: flex;
+    align-items: center;
 }
-.cart {
+/* .cart {
     width: 70px;
     height: 40px;
     background-color: black;
     border-radius: 20px;
     text-align: center;
     padding-top: 8px;
-}
+} */
 
 .cart1 {
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: black;
     color: white;
     font-size: 16px;
 
 }
 
-.fa-cart-shopping {
+.shoppingCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: 5px solid black;
-    padding: 6px;
-    
 }
 
 .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -141,24 +152,25 @@ background-color: aqua;
     font-weight: 300;
 }
 
-.inputcont {
+.inputCont {
     position: relative;
-    
+    width:300px;
+    height: 50px;
+    margin-top: 15px;
 }
 
-input {
+.inputCont > input {
     border: none;
     background-color: #c4c3c390;
-    width:300px;
-    height: 55px;
-    margin-top: 15px;
+    width: 100%;
+    height: 50px;
     text-align: end;
     padding-right: 5px;
 }
 
 .fa {
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 10px;
     pointer-events: none;
     
@@ -198,30 +210,36 @@ p {
 .shop1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 280px;
     height: 50px;
     background-color: #c4c3c390;
     padding-left: 20px;
-    padding-top: 15px;
     font-family: 'BetreaceDeckTrial', sans-serif ;;
     font-weight: 500;
 }
 
-.fa-arrow-right {
+.arrow {
+    width: 40px;
     margin-right: 20px;
 }
 
 .shop2 {
 display: flex;
+align-items: center;
+
 gap: 25px;
 }
 
-.shop2 > a {
+.shop2 > div {
     border: 1px solid  #c4c3c390;
     width: 50px;
     height: 50px;
     padding: 15px;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .a1 {
