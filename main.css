@@ -36,9 +36,17 @@
 body {
 /* background-image: url(/WhatsApp\ Image\ 2024-10-17\ at\ 3.31.24\ PM.jpeg); */
 background-color: #e6e6e6;
-margin: 50px;
-margin-top: 32px;
+/* width: 1vw;
+height: 1vh; */
+/* margin: 50px;
+margin-top: 32px; */
+/* margin-left: 50px; */
 /* font-family: 'BetreaceDeckTrial', sans-serif; */
+}
+
+.pageContainer{
+    padding: 35px;
+    width: 100vw;
 }
 
 header{
@@ -71,6 +79,8 @@ background-color: aqua;
 
 .end {
    display: flex; 
+   align-items: center;
+   justify-content: center;
    gap: 60px;
 }
 
@@ -264,8 +274,91 @@ gap: 25px;
 .imageBox > img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
-/* @media {
-    
-} */
+@media (max-width: 768px) {
+        /* Styles for tablets and smaller devices */
+
+      .pageContainer{
+        padding: 15px;
+        width: 100%;
+      }
+
+      header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .middle {
+        margin-left: 10px;
+      }
+
+      .middleImage {
+        width: 29px;
+        height: 29px;
+      }
+
+      .middleImage > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .navlinks, .heart, .cart1 {
+        display: none;
+      }
+
+      .end {
+        display: flex;
+        justify-content: space-around;
+        gap: 6px;
+      }
+      
+      .inputCont{
+        width: 100%;
+      }
+
+      .inputCont > input {
+        width: 100%;
+      }
+
+      .textBox > h1 {
+        font-size: 48px;
+      }
+
+      .box {
+        width: 100%;
+      }
+
+      .boxx {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    .box-1 {
+        width: 100%;
+    }
+
+      .box-2 {
+        height: 250px;
+        width: 100%;
+      }
+
+      .shop{
+        display: none;
+      }
+
+      .img {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 100px;
+      }
+
+      .imageBox {
+        display: none;
+      }
+} 
